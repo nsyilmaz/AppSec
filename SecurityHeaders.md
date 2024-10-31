@@ -1,7 +1,7 @@
 # HTTP Security Headers
 ## X-Frame-Options
 | Header | Description |
-| --------- ||
+| aaa ||
 | --- | --- |
 | `X-Frame-Options: DENY` | Bir web sayfasinin frame i |
 | `X-Frame-Options: SAMEORIGIN` | Show file differences that haven't been staged |
