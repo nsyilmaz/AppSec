@@ -24,5 +24,11 @@
             <td>&lt;2.59</td>
             <td>Optimal</td>
         </tr>
+        <tr>
+            <td>LDL</td>
+            <td>&lt;100</td>
+            <td>&lt;2.59</td>
+            <td>Optimal</td>
+        </tr>
             </tbody>
 </table>
