@@ -12,6 +12,7 @@
     <thead>
         <tr>
             <th>Header</th>
+            <th>Desc</th>
             <th>Usage</th>
             <th>Description</th>
             <th>aaaaaaaa</th>
@@ -20,6 +21,7 @@
     <tbody>
         <tr>
             <td rowspan=3>X-Frame-Options</td>
+            <td rowspan=3>Hede</td>
             <td>X-Frame-Options: DENY</td>
             <td></td>
             <td>Optimal</td>
