@@ -19,9 +19,9 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=2>LDL</td>
-            <td>&lt;100</td>
-            <td>&lt;2.59</td>
+            <td rowspan=2>X-Frame-Options</td>
+            <td>`X-Frame-Options: DENY`</td>
+            <td>`X-Frame-Options: SAMEORIGIN`</td>
             <td>Optimal</td>
         </tr>
         <tr>
