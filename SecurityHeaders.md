@@ -19,15 +19,20 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=2>X-Frame-Options</td>
+            <td rowspan=3>X-Frame-Options</td>
             <td>`X-Frame-Options: DENY`</td>
-            <td>`X-Frame-Options: SAMEORIGIN`</td>
+            <td></td>
             <td>Optimal</td>
         </tr>
         <tr>
-            <td>&lt;100</td>
+            <td>`X-Frame-Options: SAMEORIGIN`</td>
             <td>&lt;2.59</td>
             <td>Optimal</td>
         </tr>
-            </tbody>
+        <tr>
+            <td>`X-Frame-Options: ALLOW-FROM origin`</td>
+            <td>&lt;2.59</td>
+            <td>Optimal</td>
+        </tr>
+    </tbody>
 </table>
