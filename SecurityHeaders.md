@@ -19,13 +19,12 @@
     </thead>
     <tbody>
         <tr>
-            <td>LDL</td>
+            <td rowspan=2>LDL</td>
             <td>&lt;100</td>
             <td>&lt;2.59</td>
             <td>Optimal</td>
         </tr>
         <tr>
-            <td>LDL</td>
             <td>&lt;100</td>
             <td>&lt;2.59</td>
             <td>Optimal</td>
