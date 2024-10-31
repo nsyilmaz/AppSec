@@ -13,8 +13,7 @@
         <tr>
             <th>Header</th>
             <th>Desc</th>
-            <th>Usage</th>
-            <th>Description</th>
+            <th colspan=2>Usage</th>
             <th>aaaaaaaa</th>
         </tr>
     </thead>
