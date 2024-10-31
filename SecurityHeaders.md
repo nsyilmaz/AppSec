@@ -2,6 +2,6 @@
 ## X-Frame-Options
 | Header | Description |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
-| git diff | Show file differences that haven't been staged |
+| `X-Frame-Options: DENY` | Bir web sayfasinin frame i |
+| `X-Frame-Options: SAMEORIGIN` | Show file differences that haven't been staged |
+| `X-Frame-Options: ALLOW-FROM origin` | Show file differences that haven't been staged |
