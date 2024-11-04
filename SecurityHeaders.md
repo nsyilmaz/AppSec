@@ -52,7 +52,7 @@
         </tr>
         <tr>
             <td>Content-Security-Policy: default-src 'self' www.mydomain.com</td>
-            <td></td>
+            <td>Define loading policy for all resources type in case a resource type’s dedicated directive is not defined (fallback).</td>
         </tr>
         <tr>
             <td>Content-Security-Policy: img-src *;</td>
