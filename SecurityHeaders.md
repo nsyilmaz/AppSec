@@ -88,7 +88,6 @@
             <td>Web</td>
             <td>Setting this header will prevent the browser from interpreting files as a different MIME type to what is specified in the Content-Type HTTP header (e.g. treating text/plain as text/css).</td>
             <td>X-Content-Type-Options: nosniff</td>
-            <td></td>
             <td>Will prevent the browser from MIME-sniffing a response away from the declared content-type.</td>
         </tr>
     </tbody>
@@ -114,26 +113,21 @@
             <td rowspan=5>Cross Origin Resource Sharing (CORS) is a mechanism that enables a web browser to perform cross-domain requests using the XMLHttpRequest (XHR) Level 2 (L2) API in a controlled manner. In the past, the XHR L1 API only allowed requests to be sent within the same origin as it was restricted by the Same Origin Policy (SOP).</td>
             <td>Access-Control-Allow-Origin: https://www.mydomain.com</td>
             <td></td>
-            <td></td>
         </tr>
         <tr>
             <td>Access-Control-Request-Method: POST</td>
-            <td></td>
             <td></td>
         </tr>
         <tr>
             <td>Access-Control-Request-Headers: Content-Type</td>
             <td></td>
-            <td></td>
         </tr>
         <tr>
             <td>Access-Control-Request-Max-Age: 86400</td>
             <td></td>
-            <td></td>
         </tr>
         <tr>
             <td>Access-Control-Allow-Crerdentials: true</td>
-            <td></td>
             <td></td>
         </tr>
     </tbody>
@@ -159,16 +153,13 @@
             <td rowspan=3>HTTP Strict Transport Security (also named HSTS) is a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking. It allows web servers to declare that web browsers (or other complying user agents) should only interact with it using secure HTTPS connections, and never via the insecure HTTP protocol.</td>
             <td>Strict-Transport-Security: max-age=31536000</td>
             <td></td>
-            <td></td>
         </tr>
         <tr>
             <td>Strict-Transport-Security: max-age=31536000 ; includeSubDomains</td>
             <td></td>
-            <td></td>
         </tr>
         <tr>
             <td>Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload</td>
-            <td></td>
             <td></td>
         </tr>
     </tbody>
