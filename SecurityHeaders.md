@@ -136,7 +136,7 @@
         </tr>
         <tr>
             <td>Access-Control-Allow-Crerdentials: true</td>
-            <td></td>
+            <td>This response header allows browsers to read the response when credentials are passed. When the header is sent, the web application must set an origin to the value of the Access-Control-Allow-Origin header.</td>
         </tr>
     </tbody>
 </table>
