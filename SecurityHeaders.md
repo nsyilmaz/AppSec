@@ -120,19 +120,19 @@
             <td rowspan=5>Web / API / Mobile</td>
             <td rowspan=5>Cross Origin Resource Sharing (CORS) is a mechanism that enables a web browser to perform cross-domain requests using the XMLHttpRequest (XHR) Level 2 (L2) API in a controlled manner. In the past, the XHR L1 API only allowed requests to be sent within the same origin as it was restricted by the Same Origin Policy (SOP).</td>
             <td>Access-Control-Allow-Origin: https://www.mydomain.com</td>
-            <td></td>
+            <td>indicate which domains are allowed to read the response. Based on the CORS W3 Specification it is up to the client to determine and enforce the restriction of whether the client has access to the response data based on this header.</td>
         </tr>
         <tr>
             <td>Access-Control-Request-Method: POST</td>
-            <td></td>
+            <td>Header is used when a browser performs a preflight OPTIONS request and lets the client indicate the request method of the final request.</td>
         </tr>
         <tr>
-            <td>Access-Control-Request-Headers: Content-Type</td>
-            <td></td>
+            <td>Access-Control-Allow-Method: POST</td>
+            <td>Header used by the server to describe the methods the clients are allowed to use.</td>
         </tr>
         <tr>
             <td>Access-Control-Request-Max-Age: 86400</td>
-            <td></td>
+            <td>Header determines the time a preflight request can be cached in the browser.</td>
         </tr>
         <tr>
             <td>Access-Control-Allow-Crerdentials: true</td>
