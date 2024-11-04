@@ -27,7 +27,7 @@
             <td>This is an obsolete directive. Modern browsers that encounter response headers with this directive will ignore the header completely. The Content-Security-Policy HTTP header has a frame-ancestors directive which you should use instead.</td>
         </tr>
         <tr>
-            <td colspan=5>Ref: 
+            <td colspan=5> 
                 <li>https://owasp.org/www-project-secure-headers/#x-frame-options</li>
                 <li>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html#security-headers</li>
             </td>
@@ -81,7 +81,9 @@
             <td>Define from where the protected resource can be embedded in frames.</td>
         </tr>
         <tr>
-        <td colspan=5>Ref: https://owasp.org/www-project-secure-headers/#content-security-policy</td>
+            <td colspan=5>
+                <li>https://owasp.org/www-project-secure-headers/#content-security-policy</li>
+            </td>
         </tr>
     </tbody>
 </table>
@@ -108,7 +110,9 @@
             <td>Will prevent the browser from MIME-sniffing a response away from the declared content-type.</td>
         </tr>
         <tr>
-        <td colspan=5>Ref: https://owasp.org/www-project-secure-headers/#x-content-type-options</td>
+            <td colspan=5>
+                <li>https://owasp.org/www-project-secure-headers/#x-content-type-options</li>
+            </td>
         </tr>
     </tbody>
 </table>
@@ -143,7 +147,9 @@
             <td>Requests from any Origin (both same-site and cross-site) can read the resource. Browsers are using this policy when an CORP header is not specified.</td>
         </tr>
         <tr>
-        <td colspan=5>Ref: https://owasp.org/www-project-secure-headers/#cross-origin-resource-policy</td>
+            <td colspan=5>
+                <li>https://owasp.org/www-project-secure-headers/#cross-origin-resource-policy</li>
+            </td>
         </tr>
     </tbody>
 </table>
@@ -186,7 +192,9 @@
             <td>This response header allows browsers to read the response when credentials are passed. When the header is sent, the web application must set an origin to the value of the Access-Control-Allow-Origin header.</td>
         </tr>
         <tr>
-        <td colspan=5>Ref: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/11-Client-side_Testing/07-Testing_Cross_Origin_Resource_Sharing</td>
+            <td colspan=5>
+                <li>https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/11-Client-side_Testing/07-Testing_Cross_Origin_Resource_Sharing</li>
+            </td>
         </tr>
     </tbody>
 </table>
@@ -221,7 +229,9 @@
             <td>If this optional parameter is specified, its instruct the browser to always access the site using HTTPS because the site is included into Strict-Transport-Security preload list.</td>
         </tr>
         <tr>
-        <td colspan=5>Ref: https://owasp.org/www-project-secure-headers/#strict-transport-security</td>
+            <td colspan=5>
+                <li>https://owasp.org/www-project-secure-headers/#strict-transport-security</li>
+            </td>
         </tr>
     </tbody>
 </table>
@@ -256,7 +266,9 @@
             <td>Send a full URL when performing a same-origin request, but only send the origin of the document for other cases.</td>
         </tr>
         <tr>
-        <td colspan=5>Ref: https://owasp.org/www-project-secure-headers/#referrer-policy</td>
+            <td colspan=5>
+                <li>https://owasp.org/www-project-secure-headers/#referrer-policy</li>
+            </td>
         </tr>
     </tbody>
 </table>
@@ -291,7 +303,9 @@
             <td>The response may be stored only by a browser’s cache, even if the response is normally non-cacheable.</td>
         </tr>
         <tr>
-        <td colspan=5>Ref: https://owasp.org/www-project-secure-headers/#cache-control</td>
+            <td colspan=5>
+                <li>https://owasp.org/www-project-secure-headers/#cache-control</li>
+            </td>
         </tr>
     </tbody>
 </table>
