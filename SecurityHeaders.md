@@ -68,11 +68,11 @@
         </tr>
         <tr>
             <td>Content-Security-Policy: frame-ancestors 'self' https://www.example.org;</td>
-            <td></td>
+            <td>Define from where the protected resource can be embedded in frames.</td>
         </tr>
         <tr>
             <td>Content-Security-Policy: frame-ancestors 'self' https://mydomain.com https://example.com;</td>
-            <td></td>
+            <td>Define from where the protected resource can be embedded in frames.</td>
         </tr>
     </tbody>
 </table>
