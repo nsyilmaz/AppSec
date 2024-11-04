@@ -34,33 +34,35 @@
 
 <hr>
 
-## CSP
+## CSP (Content Security Policy)
 <table>
     <thead>
         <tr>
             <th>Header</th>
+            <th>Relates</th>
             <th>Desc</th>
             <th colspan=2>Usage</th>
-            <th>aaaaaaaa</th>
+            <th>Details</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=3>X-Frame-Options</td>
-            <td rowspan=3>Hede</td>
+            <td rowspan=3>Content-Security-Policy</td>
+            <td rowspan=3>Web</td>
+            <td rowspan=3>Content Security Policy (CSP) is a security feature that is used to specify the origin of content that is allowed to be loaded on a website or in a web applications. It is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement to distribution of malware.</td>
             <td>X-Frame-Options: DENY</td>
             <td></td>
-            <td>Optimal</td>
+            <td></td>
         </tr>
         <tr>
             <td>X-Frame-Options: SAMEORIGIN</td>
-            <td>&lt;2.59</td>
-            <td>Optimal</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>X-Frame-Options: ALLOW-FROM origin</td>
-            <td>&lt;2.59</td>
-            <td>Optimal</td>
+            <td></td>
+            <td></td>
         </tr>
     </tbody>
 </table>
