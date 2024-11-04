@@ -263,8 +263,8 @@
             <td>Indicates that once a resource becomes stale, caches do not use their stale copy without successful validation on the origin server.</td>
         </tr>
         <tr>
-            <td>Cache-Control: no-store, max-age=0 <br>Pragma: no-cache</td>
-            <td>The headers named Expires and Pragma can be used in addition to the Cache-Control header. Pragma header can be used for backwards compatibility with the HTTP/1.0 caches. However, Cache-Control is the recommended way to define the caching policy.</td>
+            <td>Cache-Control: private</td>
+            <td>The response may be stored only by a browser’s cache, even if the response is normally non-cacheable.</td>
         </tr>
     </tbody>
 </table>
