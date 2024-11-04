@@ -182,6 +182,9 @@
             <td>Access-Control-Allow-Crerdentials: true</td>
             <td>This response header allows browsers to read the response when credentials are passed. When the header is sent, the web application must set an origin to the value of the Access-Control-Allow-Origin header.</td>
         </tr>
+        <tr>
+        <td colspan=5>Ref: https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/11-Client-side_Testing/07-Testing_Cross_Origin_Resource_Sharing</td>
+        </tr>
     </tbody>
 </table>
 
@@ -213,6 +216,9 @@
         <tr>
             <td>Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload</td>
             <td>If this optional parameter is specified, its instruct the browser to always access the site using HTTPS because the site is included into Strict-Transport-Security preload list.</td>
+        </tr>
+        <tr>
+        <td colspan=5>Ref: https://owasp.org/www-project-secure-headers/#strict-transport-security</td>
         </tr>
     </tbody>
 </table>
@@ -246,6 +252,9 @@
             <td>Referrer-Policy: origin-when-cross-origin</td>
             <td>Send a full URL when performing a same-origin request, but only send the origin of the document for other cases.</td>
         </tr>
+        <tr>
+        <td colspan=5>Ref: https://owasp.org/www-project-secure-headers/#referrer-policy</td>
+        </tr>
     </tbody>
 </table>
 
@@ -277,6 +286,9 @@
         <tr>
             <td>Cache-Control: private</td>
             <td>The response may be stored only by a browser’s cache, even if the response is normally non-cacheable.</td>
+        </tr>
+        <tr>
+        <td colspan=5>Ref: https://owasp.org/www-project-secure-headers/#cache-control</td>
         </tr>
     </tbody>
 </table>
