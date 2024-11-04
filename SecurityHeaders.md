@@ -27,7 +27,7 @@
             <td>This is an obsolete directive. Modern browsers that encounter response headers with this directive will ignore the header completely. The Content-Security-Policy HTTP header has a frame-ancestors directive which you should use instead.</td>
         </tr>
         <tr>
-        <td colspan=5>hede</td>
+        <td colspan=5>Ref: https://owasp.org/www-project-secure-headers/#x-frame-options</td>
         </tr>
     </tbody>
 </table>
