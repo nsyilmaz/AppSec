@@ -83,6 +83,7 @@
         <tr>
             <td colspan=5>
                 <li>https://owasp.org/www-project-secure-headers/#content-security-policy</li>
+                <li>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html#content-security-policy-csp</li>
             </td>
         </tr>
     </tbody>
@@ -112,6 +113,7 @@
         <tr>
             <td colspan=5>
                 <li>https://owasp.org/www-project-secure-headers/#x-content-type-options</li>
+                <li>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html#x-content-type-options</li>
             </td>
         </tr>
     </tbody>
@@ -149,6 +151,7 @@
         <tr>
             <td colspan=5>
                 <li>https://owasp.org/www-project-secure-headers/#cross-origin-resource-policy</li>
+                <li>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html#cross-origin-resource-policy-corp</li>
             </td>
         </tr>
     </tbody>
@@ -194,6 +197,7 @@
         <tr>
             <td colspan=5>
                 <li>https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/11-Client-side_Testing/07-Testing_Cross_Origin_Resource_Sharing</li>
+                <li>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html#access-control-allow-origin</li>
             </td>
         </tr>
     </tbody>
@@ -231,6 +235,7 @@
         <tr>
             <td colspan=5>
                 <li>https://owasp.org/www-project-secure-headers/#strict-transport-security</li>
+                <li>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html#strict-transport-security-hsts</li>
             </td>
         </tr>
     </tbody>
@@ -268,6 +273,7 @@
         <tr>
             <td colspan=5>
                 <li>https://owasp.org/www-project-secure-headers/#referrer-policy</li>
+                <li>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html#referrer-policy</li>
             </td>
         </tr>
     </tbody>
