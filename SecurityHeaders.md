@@ -19,13 +19,13 @@
         </tr>
         <tr>
             <td>X-Frame-Options: SAMEORIGIN</td>
-            <td>&lt;2.59</td>
-            <td>Optimal</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>X-Frame-Options: ALLOW-FROM origin</td>
-            <td>&lt;2.59</td>
-            <td>Optimal</td>
+            <td></td>
+            <td></td>
         </tr>
     </tbody>
 </table>
