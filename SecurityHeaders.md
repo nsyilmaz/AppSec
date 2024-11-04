@@ -127,30 +127,20 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=5>Strict-Transport-Security</td>
-            <td rowspan=5>Web / API / Mobile</td>
-            <td rowspan=5>Cross Origin Resource Sharing (CORS) is a mechanism that enables a web browser to perform cross-domain requests using the XMLHttpRequest (XHR) Level 2 (L2) API in a controlled manner. In the past, the XHR L1 API only allowed requests to be sent within the same origin as it was restricted by the Same Origin Policy (SOP).</td>
-            <td>Access-Control-Allow-Origin: https://www.mydomain.com</td>
+            <td rowspan=3>Strict-Transport-Security</td>
+            <td rowspan=3>Web / API / Mobile</td>
+            <td rowspan=3>HTTP Strict Transport Security (also named HSTS) is a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking. It allows web servers to declare that web browsers (or other complying user agents) should only interact with it using secure HTTPS connections, and never via the insecure HTTP protocol.</td>
+            <td>Strict-Transport-Security: max-age=31536000</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>Access-Control-Request-Method: POST</td>
+            <td>Strict-Transport-Security: max-age=31536000 ; includeSubDomains</td>
             <td></td>
             <td></td>
         </tr>
         <tr>
-            <td>Access-Control-Request-Headers: Content-Type</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Access-Control-Request-Max-Age: 86400</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Access-Control-Allow-Crerdentials: true</td>
+            <td>Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload</td>
             <td></td>
             <td></td>
         </tr>
