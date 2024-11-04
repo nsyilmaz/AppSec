@@ -172,3 +172,35 @@
         </tr>
     </tbody>
 </table>
+
+<hr>
+
+## Referrer Policy
+<table>
+    <thead>
+        <tr>
+            <th>Header</th>
+            <th>Relates</th>
+            <th>Desc</th>
+            <th>Usage</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=3>Referrer-Policy</td>
+            <td rowspan=3>Web / API / Mobile</td>
+            <td rowspan=3>The Referrer-Policy HTTP header governs which referrer information, sent in the Referer header, should be included with requests made.</td>
+            <td>Referrer-Policy: no-referrer</td>
+            <td>The Referer header will be omitted entirely. No referrer information is sent along with requests.</td>
+        </tr>
+        <tr>
+            <td>Referrer-Policy: same-origin</td>
+            <td>A referrer will be sent for same-site origins, but cross-origin requests will contain no referrer information.</td>
+        </tr>
+        <tr>
+            <td>Referrer-Policy: origin-when-cross-origin</td>
+            <td>Send a full URL when performing a same-origin request, but only send the origin of the document for other cases.</td>
+        </tr>
+    </tbody>
+</table>
