@@ -66,3 +66,48 @@
         </tr>
     </tbody>
 </table>
+
+<hr>
+
+## CORS (Cross Origin Resource Sharing)
+<table>
+    <thead>
+        <tr>
+            <th>Header</th>
+            <th>Relates</th>
+            <th>Desc</th>
+            <th colspan=2>Usage</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=5>Access-Control-*</td>
+            <td rowspan=5>Web / API / Mobile</td>
+            <td rowspan=5>Cross Origin Resource Sharing (CORS) is a mechanism that enables a web browser to perform cross-domain requests using the XMLHttpRequest (XHR) Level 2 (L2) API in a controlled manner. In the past, the XHR L1 API only allowed requests to be sent within the same origin as it was restricted by the Same Origin Policy (SOP).</td>
+            <td>Access-Control-Allow-Origin: https://www.mydomain.com</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Access-Control-Request-Method: POST</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Access-Control-Request-Headers: Content-Type</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Access-Control-Request-Max-Age: 86400</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Access-Control-Allow-Crerdentials: true</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
