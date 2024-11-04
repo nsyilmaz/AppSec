@@ -4,6 +4,7 @@
     <thead>
         <tr>
             <th>Header</th>
+            <th>Relates</th>
             <th>Desc</th>
             <th colspan=2>Usage</th>
             <th>Details</th>
@@ -12,6 +13,7 @@
     <tbody>
         <tr>
             <td rowspan=3>X-Frame-Options</td>
+            <td rowspan=3>Web</td>
             <td rowspan=3>The X-Frame-Options HTTP response header can be used to indicate whether a browser should be allowed to render a page in a <frame>, <iframe>, <embed> or <object>. Sites can use this to avoid click-jacking attacks, by ensuring that their content is not embedded into other sites.</td>
             <td>X-Frame-Options: DENY</td>
             <td></td>
