@@ -160,15 +160,15 @@
             <td rowspan=3>Web / API / Mobile</td>
             <td rowspan=3>HTTP Strict Transport Security (also named HSTS) is a web security policy mechanism which helps to protect websites against protocol downgrade attacks and cookie hijacking. It allows web servers to declare that web browsers (or other complying user agents) should only interact with it using secure HTTPS connections, and never via the insecure HTTP protocol.</td>
             <td>Strict-Transport-Security: max-age=31536000</td>
-            <td></td>
+            <td>The time, in seconds, that the browser should remember that this site is only to be accessed using HTTPS.</td>
         </tr>
         <tr>
             <td>Strict-Transport-Security: max-age=31536000 ; includeSubDomains</td>
-            <td></td>
+            <td>If this optional parameter is specified, this rule applies to all of the site’s subdomains as well.</td>
         </tr>
         <tr>
             <td>Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload</td>
-            <td></td>
+            <td>If this optional parameter is specified, its instruct the browser to always access the site using HTTPS because the site is included into Strict-Transport-Security preload list.</td>
         </tr>
     </tbody>
 </table>
