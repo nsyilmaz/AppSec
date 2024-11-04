@@ -77,6 +77,9 @@
             <td>Content-Security-Policy: frame-ancestors 'self' https://mydomain.com https://example.com;</td>
             <td>Define from where the protected resource can be embedded in frames.</td>
         </tr>
+        <tr>
+        <td colspan=5>Ref: https://owasp.org/www-project-secure-headers/#content-security-policy</td>
+        </tr>
     </tbody>
 </table>
 
@@ -100,6 +103,9 @@
             <td>Setting this header will prevent the browser from interpreting files as a different MIME type to what is specified in the Content-Type HTTP header (e.g. treating text/plain as text/css).</td>
             <td>X-Content-Type-Options: nosniff</td>
             <td>Will prevent the browser from MIME-sniffing a response away from the declared content-type.</td>
+        </tr>
+        <tr>
+        <td colspan=5>Ref: https://owasp.org/www-project-secure-headers/#x-content-type-options</td>
         </tr>
     </tbody>
 </table>
@@ -132,6 +138,9 @@
         <tr>
             <td>Cross-Origin-Resource-Policy: cross-origin</td>
             <td>Requests from any Origin (both same-site and cross-site) can read the resource. Browsers are using this policy when an CORP header is not specified.</td>
+        </tr>
+        <tr>
+        <td colspan=5>Ref: https://owasp.org/www-project-secure-headers/#cross-origin-resource-policy</td>
         </tr>
     </tbody>
 </table>
