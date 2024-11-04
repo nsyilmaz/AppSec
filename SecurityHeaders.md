@@ -44,19 +44,27 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=5>Content-Security-Policy</td>
-            <td rowspan=5>Web</td>
-            <td rowspan=5>Content Security Policy (CSP) is a security feature that is used to specify the origin of content that is allowed to be loaded on a website or in a web applications. It is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement to distribution of malware.</td>
+            <td rowspan=7>Content-Security-Policy</td>
+            <td rowspan=7>Web</td>
+            <td rowspan=7>Content Security Policy (CSP) is a security feature that is used to specify the origin of content that is allowed to be loaded on a website or in a web applications. It is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement to distribution of malware.</td>
             <td>Content-Security-Policy: default-src 'self'</td>
-            <td></td>
+            <td>Define loading policy for all resources type in case a resource type’s dedicated directive is not defined (fallback).</td>
         </tr>
         <tr>
             <td>Content-Security-Policy: default-src 'self' www.mydomain.com</td>
             <td></td>
         </tr>
         <tr>
-            <td>Content-Security-Policy: default-src 'self' www.mydomain.com; img-src *; media-src www.mydomain.com; script-src www.mydomain.com</td>
-            <td></td>
+            <td>Content-Security-Policy: img-src *;</td>
+            <td>Define from where the protected resource can load images.</td>
+        </tr>
+        <tr>
+            <td>Content-Security-Policy: media-src www.mydomain.com;</td>
+            <td>Define from where the protected resource can load video and audio.</td>
+        </tr>
+        <tr>
+            <td>Content-Security-Policy: script-src www.mydomain.com;</td>
+            <td>Define which scripts the protected resource can execute.</td>
         </tr>
         <tr>
             <td>Content-Security-Policy: frame-ancestors 'self' https://www.example.org;</td>
