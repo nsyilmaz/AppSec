@@ -47,9 +47,9 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=3>Content-Security-Policy</td>
-            <td rowspan=3>Web</td>
-            <td rowspan=3>Content Security Policy (CSP) is a security feature that is used to specify the origin of content that is allowed to be loaded on a website or in a web applications. It is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement to distribution of malware.</td>
+            <td rowspan=5>Content-Security-Policy</td>
+            <td rowspan=5>Web</td>
+            <td rowspan=5>Content Security Policy (CSP) is a security feature that is used to specify the origin of content that is allowed to be loaded on a website or in a web applications. It is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement to distribution of malware.</td>
             <td>Content-Security-Policy: default-src 'self'</td>
             <td></td>
             <td></td>
@@ -61,6 +61,16 @@
         </tr>
         <tr>
             <td>Content-Security-Policy: default-src 'self' www.mydomain.com; img-src *; media-src www.mydomain.com; script-src www.mydomain.com</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Content-Security-Policy: frame-ancestors 'self' https://www.example.org;</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Content-Security-Policy: frame-ancestors 'self' https://mydomain.com https://example.com;</td>
             <td></td>
             <td></td>
         </tr>
