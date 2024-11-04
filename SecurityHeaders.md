@@ -26,8 +26,8 @@
             <td>X-Frame-Options: ALLOW-FROM origin</td>
             <td>This is an obsolete directive. Modern browsers that encounter response headers with this directive will ignore the header completely. The Content-Security-Policy HTTP header has a frame-ancestors directive which you should use instead.</td>
         </tr>
-        <tr colspan=5>
-        <td>hede</td>
+        <tr>
+        <td colspan=5>hede</td>
         </tr>
     </tbody>
 </table>
