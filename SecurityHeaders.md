@@ -236,3 +236,35 @@
         </tr>
     </tbody>
 </table>
+
+<hr>
+
+## Cache-Control
+<table>
+    <thead>
+        <tr>
+            <th>Header</th>
+            <th>Relates</th>
+            <th>Desc</th>
+            <th>Usage</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=3>Cache-Control</td>
+            <td rowspan=3>Web / API / Mobile</td>
+            <td rowspan=3>This header holds directives (instructions) for caching in both requests and responses. If a given directive is in a request, it does not mean this directive is in the response (source Mozilla MDN). Specify the capability of a resource to be cached is important to prevent exposure of information via the cache.</td>
+            <td>Cache-Control: no-store, max-age=0</td>
+            <td>The response may not be stored in any cache.</td>
+        </tr>
+        <tr>
+            <td>Cache-Control: must-revalidate</td>
+            <td>Indicates that once a resource becomes stale, caches do not use their stale copy without successful validation on the origin server.</td>
+        </tr>
+        <tr>
+            <td>Cache-Control: no-store, max-age=0 <br>Pragma: no-cache</td>
+            <td>The headers named Expires and Pragma can be used in addition to the Cache-Control header. Pragma header can be used for backwards compatibility with the HTTP/1.0 caches. However, Cache-Control is the recommended way to define the caching policy.</td>
+        </tr>
+    </tbody>
+</table>
