@@ -79,6 +79,31 @@
 
 <hr>
 
+## X-Content-Type-Options
+<table>
+    <thead>
+        <tr>
+            <th>Header</th>
+            <th>Relates</th>
+            <th>Desc</th>
+            <th colspan=2>Usage</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>X-Content-Type-Options</td>
+            <td>Web</td>
+            <td>Setting this header will prevent the browser from interpreting files as a different MIME type to what is specified in the Content-Type HTTP header (e.g. treating text/plain as text/css).</td>
+            <td>X-Content-Type-Options: nosniff</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
 ## CORS (Cross Origin Resource Sharing)
 <table>
     <thead>
