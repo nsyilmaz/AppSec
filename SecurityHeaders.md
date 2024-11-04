@@ -16,17 +16,14 @@
             <td rowspan=3>Web</td>
             <td rowspan=3>The X-Frame-Options HTTP response header can be used to indicate whether a browser should be allowed to render a page in a <frame>, <iframe>, <embed> or <object>. Sites can use this to avoid click-jacking attacks, by ensuring that their content is not embedded into other sites.</td>
             <td>X-Frame-Options: DENY</td>
-            <td></td>
             <td>No rendering within a frame.</td>
         </tr>
         <tr>
             <td>X-Frame-Options: SAMEORIGIN</td>
-            <td></td>
             <td>No rendering if origin mismatch.</td>
         </tr>
         <tr>
             <td>X-Frame-Options: ALLOW-FROM origin</td>
-            <td></td>
             <td>This is an obsolete directive. Modern browsers that encounter response headers with this directive will ignore the header completely. The Content-Security-Policy HTTP header has a frame-ancestors directive which you should use instead.</td>
         </tr>
     </tbody>
