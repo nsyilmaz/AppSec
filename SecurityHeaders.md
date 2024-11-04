@@ -6,7 +6,7 @@
             <th>Header</th>
             <th>Relates</th>
             <th>Desc</th>
-            <th colspan=2>Usage</th>
+            <th>Usage</th>
             <th>Details</th>
         </tr>
     </thead>
@@ -41,7 +41,7 @@
             <th>Header</th>
             <th>Relates</th>
             <th>Desc</th>
-            <th colspan=2>Usage</th>
+            <th>Usage</th>
             <th>Details</th>
         </tr>
     </thead>
@@ -86,7 +86,7 @@
             <th>Header</th>
             <th>Relates</th>
             <th>Desc</th>
-            <th colspan=2>Usage</th>
+            <th>Usage</th>
             <th>Details</th>
         </tr>
     </thead>
@@ -111,7 +111,7 @@
             <th>Header</th>
             <th>Relates</th>
             <th>Desc</th>
-            <th colspan=2>Usage</th>
+            <th>Usage</th>
             <th>Details</th>
         </tr>
     </thead>
@@ -156,7 +156,7 @@
             <th>Header</th>
             <th>Relates</th>
             <th>Desc</th>
-            <th colspan=2>Usage</th>
+            <th>Usage</th>
             <th>Details</th>
         </tr>
     </thead>
