@@ -15,7 +15,7 @@
             <td rowspan=3>The X-Frame-Options HTTP response header can be used to indicate whether a browser should be allowed to render a page in a <frame>, <iframe>, <embed> or <object>. Sites can use this to avoid click-jacking attacks, by ensuring that their content is not embedded into other sites.</td>
             <td>X-Frame-Options: DENY</td>
             <td></td>
-            <td>Optimal</td>
+            <td></td>
         </tr>
         <tr>
             <td>X-Frame-Options: SAMEORIGIN</td>
