@@ -103,6 +103,38 @@
 
 <hr>
 
+## Cross-Origin-Resource-Policy
+<table>
+    <thead>
+        <tr>
+            <th>Header</th>
+            <th>Relates</th>
+            <th>Desc</th>
+            <th>Usage</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=3>Cross-Origin-Resource-Policy</td>
+            <td rowspan=3>Web / API / Mobile</td>
+            <td rowspan=3>This response header (also named CORP) allows to define a policy that lets web sites and applications opt in to protection against certain requests from other origins (such as those issued with elements like <script> and <img>), to mitigate speculative side-channel attacks.</td>
+            <td>Cross-Origin-Resource-Policy: same-site</td>
+            <td>Only requests from the same Site can read the resource.</td>
+        </tr>
+        <tr>
+            <td>Cross-Origin-Resource-Policy: same-origin</td>
+            <td>Only requests from the same Origin (i.e. scheme + host + port) can read the resource.</td>
+        </tr>
+        <tr>
+            <td>Cross-Origin-Resource-Policy: cross-origin</td>
+            <td>Requests from any Origin (both same-site and cross-site) can read the resource. Browsers are using this policy when an CORP header is not specified.</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
 ## CORS (Cross Origin Resource Sharing)
 <table>
     <thead>
