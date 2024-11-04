@@ -97,7 +97,7 @@
             <td>Setting this header will prevent the browser from interpreting files as a different MIME type to what is specified in the Content-Type HTTP header (e.g. treating text/plain as text/css).</td>
             <td>X-Content-Type-Options: nosniff</td>
             <td></td>
-            <td></td>
+            <td>Will prevent the browser from MIME-sniffing a response away from the declared content-type.</td>
         </tr>
     </tbody>
 </table>
