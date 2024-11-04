@@ -6,7 +6,7 @@
             <th>Header</th>
             <th>Desc</th>
             <th colspan=2>Usage</th>
-            <th>aaaaaaaa</th>
+            <th>Details</th>
         </tr>
     </thead>
     <tbody>
